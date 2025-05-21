@@ -118,7 +118,15 @@ We help students develop their understanding of key texts while mastering exam t
     
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email"placeholder="Email" required>
-        
+        <label for="subject" class="block text-gray-700 text-sm font-medium mb-2">Subject</label>
+<select id="subject" name="subject"
+  class="w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-gray-700">
+  <option value="" disabled selected>Select a subject</option>
+  <option value="general">General Inquiry</option>
+  <option value="pricing">Pricing</option>
+  <option value="technical">Technical Support</option>
+  <option value="feedback">Feedback</option>
+</select>
         <textarea name="message"placeholder="Your Message" required></textarea>
         <button type="submit">Submit Form</button>
     
