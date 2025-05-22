@@ -2,79 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Interpreting Services | Top Tier Tutors</title>
-  <link rel="stylesheet" href="interpereting-services.css">
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- ========== Navigation ========== -->
   <header>
-    <nav class="navbar">
-      <div class="logo"><a href="index.html">Top Tier Tutors</a></div>
-      <ul class="nav-links">
-        <li><a href="interpereting-services.html" target="_blank">Interpreting</a></li>
-      </ul>
+    <div class="logo">Top Tier Tutors</div>
+    <nav class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- ========== Introduction Section ========== -->
-  <section class="service-section">
-    <div class="container">
-      <p>🌐 Professional Interpreting Services Across England</p>
-      <p><strong>Reliable. Affordable. Multilingual.</strong></p>
-
-      <p>
-        At <strong>Top Tier Tutors</strong>, we proudly offer high-quality interpreting services 
-        to organisations across England — no matter your industry or location.
-      </p>
-
-      <p>Whether you're in:</p>
-      <ul class="pricing-list">
-        <li>🏥 Healthcare</li>
-        <li>🏫 Education</li>
-        <li>⚖️ Legal proceedings</li>
-        <li>🏛️ Government</li>
-        <li>💼 Business</li>
-        <li>🎤 Conferences</li>
-        <li>🛂 Immigration and asylum</li>
-        <li>🤝 Social services</li>
-      </ul>
-
-      <h3>🔹 Available Languages:</h3>
-      <ul class="pricing-list">
-        <li>🇷🇴 Romanian</li>
-        <li>🇵🇹 Portuguese</li>
-        <li>🇫🇷 French</li>
-        <li>🇪🇸 Spanish</li>
-        <li>🇮🇹 Italian</li>
-      </ul>
-
-      <h3>🔹 Service Formats:</h3>
-      <ul class="pricing-list">
-        <li>💻 Online (video call)</li>
-        <li>📞 Telephone</li>
-      </ul>
-
-      <h3>🔹 Rates Starting From:</h3>
-      <p>💷 £25 per hour</p>
-
-      <p>We make communication seamless — so you can focus on what matters.</p>
-      <p>📞 <strong>Contact us today</strong> to book a professional interpreter or to learn more.</p>
-    </div>
+  <section class="hero">
+    <h1>🌐 Professional Interpreting Services</h1>
+    <p>Reliable. Affordable. Multilingual. Available across England — online or by telephone.</p>
+    <a href="#contact" class="cta-button">Book an Interpreter</a>
   </section>
 
-  <!-- ========== Interpreting Services Section ========== -->
-  <section class="service-section">
-    <div class="service-header">
-      <h1>Interpreting Services</h1>
-      <p style="font-size: 18px;">Available across England — online or by telephone</p>
-    </div>
-
-    <div class="highlight">
-      <p><strong>Top Tier Tutors</strong> offers professional, reliable, and affordable interpreting services tailored for:</p>
-    </div>
-
-    <div class="service-list">
+  <section class="section" id="services">
+    <h2>We Cover a Range of Sectors</h2>
+    <div class="grid">
       <div class="card">Healthcare</div>
       <div class="card">Education</div>
       <div class="card">Legal Proceedings</div>
@@ -84,60 +34,41 @@
       <div class="card">Immigration & Asylum</div>
       <div class="card">Social Services</div>
     </div>
-
-    <div class="highlight">
-      <p><strong>Languages Offered:</strong></p>
-      <div class="language-list">
-        <div class="card">Romanian</div>
-        <div class="card">Portuguese</div>
-        <div class="card">French</div>
-        <div class="card">Spanish</div>
-        <div class="card">Italian</div>
-      </div>
-      <p><strong>Rates starting from:</strong> £25 per hour</p>
-    </div>
-
-    <div style="text-align: center;">
-      <a href="#contact" class="cta-button">Book an Interpreter</a>
-    </div>
   </section>
 
-  <!-- ========== Contact Section ========== -->
-  <section id="contact" class="contact-section">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <form action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="2c090007-cc46-42ed-94df-28792f708aca">
-
-        <input type="text" name="name" placeholder="Your name" required>
-        <input type="email" name="email" placeholder="Email" required>
-
-        <select id="subject" name="subject" style="
-          width: 100%;
-          padding: 10px;
-          border: 1px solid #ccc;
-          border-radius: 8px;
-          box-sizing: border-box;
-          margin-top: 6px;
-          margin-bottom: 16px;
-          font-size: 16px;">
-          <option value="" disabled selected>Select a subject</option>
-          <option value="general">Science</option>
-          <option value="pricing">English Literature</option>
-          <option value="technical">Portuguese</option>
-          <option value="feedback">Romanian</option>
-          <option value="English TEFL">English TEFL</option>
-          <option value="Interpreting-services">Interpreting services</option>
-          <option value="Other">Other</option>
-        </select>
-
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Submit Form</button>
-      </form>
+  <section class="section">
+    <h2>Languages Offered</h2>
+    <div class="grid">
+      <div class="card">Romanian</div>
+      <div class="card">Portuguese</div>
+      <div class="card">French</div>
+      <div class="card">Spanish</div>
+      <div class="card">Italian</div>
     </div>
+    <p style="text-align:center; margin-top: 20px; font-size: 1.2rem;">💷 <strong>Rates starting from:</strong> £25 per hour</p>
   </section>
 
-  <!-- ========== Footer ========== -->
+  <section class="section contact-section" id="contact">
+    <h2>Contact Us</h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="2c090007-cc46-42ed-94df-28792f708aca">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <select name="subject" required>
+        <option value="" disabled selected>Select a subject</option>
+        <option value="Science">Science</option>
+        <option value="English Literature">English Literature</option>
+        <option value="Portuguese">Portuguese</option>
+        <option value="Romanian">Romanian</option>
+        <option value="English TEFL">English TEFL</option>
+        <option value="Interpreting-services">Interpreting services</option>
+        <option value="Other">Other</option>
+      </select>
+      <textarea name="message" placeholder="Your message" required></textarea>
+      <button type="submit">Submit Form</button>
+    </form>
+  </section>
+
   <footer>
     <p>© 2025 Top Tier Tutors. All rights reserved.</p>
   </footer>
