@@ -108,7 +108,7 @@
   }
   
   h1 {
-    font-size: 24px;
+    font-size: 35px;
     color: #9500ff;
     margin-bottom: 20px;
   }
@@ -328,17 +328,6 @@
       border-radius: 16px;
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
       padding: 40px;
-    }
-
-    h2 {
-      margin-bottom: 20px;
-      color: #9500ff;
-    }
-
-    h3 {
-      margin-top: 30px;
-      color:#9500ff;
-    ;
     }
     /* Responsive */
 @media only screen and (max-width: 600px) {
