@@ -125,7 +125,7 @@ p{
     font-size: 28px;
   }
   .subjects-list{
-    
+    font-size:28px;
   }
     
   /* Contact Form */
@@ -180,7 +180,7 @@ p{
   list-style: none;
   padding: 0;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 28px;
   line-height: 1.6;
     }
 
@@ -338,11 +338,11 @@ p{
     font-size: 30px; /* or whatever size looks good on mobile */
   }
     .container h2 {
-        font-size:24px;
+        font-size:35px;
     }
     .container h1 {
-        font-size:24px;
+        font-size:35px;
     }
     .container p {
-        font-size:24px;
+        font-size:28px;
 }
