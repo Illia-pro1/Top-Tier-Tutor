@@ -45,6 +45,7 @@ p {
   list-style: none;
   display: flex;
   gap: 20px;
+  front-size: 24px;
 }
 
 .nav-links a {
