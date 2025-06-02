@@ -45,13 +45,13 @@ p {
   list-style: none;
   display: flex;
   gap: 20px;
-  front-size: 24px;
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
   transition: 0.3s;
+  font-size: 24px;
 }
 
 .nav-links a:hover {
