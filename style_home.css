@@ -163,7 +163,7 @@ section {
   border: 1px solid;
   border-radius: 8px;
   border-color: black;
-  font-size: 28px;
+  font-size: 1rem;
   color: black;
 }
 
@@ -243,5 +243,5 @@ footer {
     font-size: 30px;
   }
   .hero-image{
-    
+  }
 }
