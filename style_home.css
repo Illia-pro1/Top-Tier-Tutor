@@ -39,6 +39,7 @@ p {
   font-weight: bold;
   text-decoration: none;
   color: white;
+  flex-shrink: 0;
 }
 
 .nav-links {
