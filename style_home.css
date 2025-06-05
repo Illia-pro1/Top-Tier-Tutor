@@ -160,7 +160,7 @@ section {
 .contact-section input,
 .contact-section textarea {
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid;
   border-radius: 8px;
   border-color: black;
   font-size: 1rem;
