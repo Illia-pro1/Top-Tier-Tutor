@@ -167,6 +167,11 @@ section {
   font-size: 1rem;
   color: black;
 }
+.select {
+  border-radius: 8px;
+  border-color: black;
+  font-size: 1 rem;
+  color: black;
 
 .contact-section button {
   background: #9500ff;
