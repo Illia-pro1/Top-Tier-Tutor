@@ -12,19 +12,18 @@
 </head>
 
 <body>
-  <!-- Navigation -->
-  <header>
-    <nav class="navbar">
-      <div class="logo"><a href="index.html">Top Tier Tutors</a></div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#subjects">Subjects</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="interpereting-services.html" target="_blank">Interpreting</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- Navbar -->
+<nav class="navbar">
+  <div class="logo">Top Tier Tutors</div>
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#">About</a></li>
+    <li><a href="#">Subjects</a></li>
+    <li><a href="#">Pricing</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Interpreting</a></li>
+  </ul>
+</nav>
 
   <!-- Hero Section -->
   <section class="hero">
@@ -169,5 +168,11 @@
   <footer>
     <p>© 2025 Top Tier Tutors. All rights reserved.</p>
   </footer>
+    <script>
+  function toggleMenu() {
+    const navLinks = document.getElementById("navLinks");
+    navLinks.classList.toggle("show");
+  }
+</script>
 </body>
 </html>
