@@ -1,7 +1,7 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: 'Segoe UI', sans-serif; background: #f9f9f9; color: #333; }
     header { background: #9500ff; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; position: sticky; top: 0; z-index: 1000; }
-    .logo { font-size: 1.75rem; font-weight: bold;decoration: none; color: white; }
+    .logo a { font-size: 28px; font-weight: bold; text-decoration: none; color: white; flex-shrink: 0; }
     .nav-links a { color: white; text-decoration: none; margin-left: 1rem; }
     .nav-links a:hover { text-decoration: underline; }
 
