@@ -77,14 +77,6 @@ p {
     display: block;
   }
 }
-
-/* Call-to-Action */
-.cta {
-  color: #9500ff;
-  padding: 5px 10px;
-  border-radius: 6px;
-}
-
 /* Hero Section */
 .hero {
   background: url('website background image.png') center/cover no-repeat;
@@ -93,7 +85,6 @@ p {
   text-align: center;
   padding: 100px 20px 50px;
   font-size: 24px;
-  margin-top: 70px;
 }
 
 .hero h1 {
