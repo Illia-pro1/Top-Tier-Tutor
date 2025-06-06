@@ -30,7 +30,7 @@ p {
   color: white;
 }
 
-.logo {
+.logo a {
   font-weight: bold;
   font-size: 1.5rem;
   color: white;
@@ -47,6 +47,9 @@ p {
   color: white;
   text-decoration: none;
   font-weight: 400;
+}
+.nac-links li a::hover{
+  text-decoration: underline;
 }
 
 .menu-toggle {
@@ -119,6 +122,7 @@ p {
 }
 
 .hero-image img {
+  display: flex;
   max-width: 100%;
   height: auto;
   border-radius: 10px;
@@ -263,6 +267,5 @@ footer {
   .mission-heading {
     font-size: 30px;
   }
-  .hero-image{
-  }
-}
+
+
