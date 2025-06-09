@@ -117,6 +117,7 @@ p {
 /* Hero Image */
 .hero-image {
   width: auto;
+  hieght: auto;
   text-align: center;
   margin: 90px 200px;
 }
