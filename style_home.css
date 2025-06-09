@@ -123,6 +123,7 @@ p {
 
 .hero-image img {
   width:auto; 
+  hieght:auto;
   min-width: 600px;
   display: flex;
   align-content: center;
