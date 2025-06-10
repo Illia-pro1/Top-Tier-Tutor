@@ -5,8 +5,8 @@
   padding: 0;
 }
 .icon {
-    width: 50px; /* Adjust as needed */
-    height: 50px;
+    width: 64px; /* Adjust as needed */
+    height: 64px;
     object-fit: contain; /* Keeps aspect ratio */
 }
 body {
