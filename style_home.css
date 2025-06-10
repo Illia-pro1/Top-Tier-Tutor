@@ -3,11 +3,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-.icon {
-    width: 100%; /* Adjust based on viewport */
-    height: auto;
-}
+} 
+ 
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
