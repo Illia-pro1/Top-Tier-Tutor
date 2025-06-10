@@ -4,7 +4,11 @@
   margin: 0;
   padding: 0;
 }
-
+.icon {
+    width: 50px; /* Adjust as needed */
+    height: 50px;
+    object-fit: contain; /* Keeps aspect ratio */
+}
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
