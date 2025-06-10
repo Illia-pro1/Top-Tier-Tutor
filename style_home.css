@@ -5,9 +5,8 @@
   padding: 0;
 }
 .icon {
-    width: 64px; /* Adjust as needed */
-    height: 64px;
-    object-fit: contain; /* Keeps aspect ratio */
+    width: 10vw; /* Adjust based on viewport */
+    height: auto;
 }
 body {
   font-family: 'Segoe UI', sans-serif;
