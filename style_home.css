@@ -5,7 +5,7 @@
   padding: 0;
 }
 .icon {
-    width: 10vw; /* Adjust based on viewport */
+    width: 100%; /* Adjust based on viewport */
     height: auto;
 }
 body {
