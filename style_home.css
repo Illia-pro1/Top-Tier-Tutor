@@ -113,21 +113,28 @@ p {
 .hero-btn:hover {
   background: #ddd;
 }
+    /* Base styling */
+    .hero-image img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
 
-/* Hero Image */
-.hero-image {
-  width: 100%;
-  hieght: auto;
-  text-align: center;
-  margin: 90px 200px;
-}
+    /* Laptop devices (screen width ≤ 1024px) */
+    @media (max-width: 1024px) {
+      .hero-image img{
+        max-width: 400px;
+      }
+    }
 
-.hero-image img {
-  width: 100%; 
-  align-content: center;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-}
+    /* Mobile devices (screen width ≤ 600px) */
+    @media (max-width: 600px) {
+      .hero-image img {
+        max-width: 300px;
+      }
+    }
 
 /* Section Container */
 section {
