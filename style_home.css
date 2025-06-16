@@ -53,6 +53,9 @@ p {
   padding: 1rem;
   color: white;
 }
+.logo a br{
+  margin-left: 71px;
+}
 
 .logo a {
   font-weight: bold;
