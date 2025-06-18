@@ -100,6 +100,7 @@ p {
     left: 0;
     padding: 1rem;
     text-align: right;
+    padding: 15px;
   }
 
   .nav-links.show {
