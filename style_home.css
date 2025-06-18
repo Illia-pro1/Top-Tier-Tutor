@@ -233,7 +233,7 @@ section {
   position: fixed;
   top: 50%;
   left: 0;
-  transform: translateY(-50%);
+  transform: translateY(-40%);
   background: #fff;
   padding: 10px;
   border-top-right-radius: 10px;
@@ -246,7 +246,7 @@ section {
   position: fixed;
   top: 50%;
   left: 0;
-  transform: translateY(+110%);
+  transform: translateY(+130%);
   background: #fff;
   padding: 10px;
   border-top-right-radius: 10px;
