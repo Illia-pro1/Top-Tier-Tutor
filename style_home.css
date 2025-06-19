@@ -302,4 +302,16 @@ footer {
     font-size: 1.875rem;
   }
 
+  /* hide the text in nav bar */
+  
+      .hide-on-small {
+      display: block;
+    }
+
+    @media screen and (max-width: 600px) {
+      .hide-on-small {
+        display: none;
+      }
+    }
+
 
