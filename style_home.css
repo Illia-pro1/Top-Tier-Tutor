@@ -305,13 +305,13 @@ footer {
 
   /* hide the text in nav bar */
   
-      .hide-on-small {
+      .hide-on-small p {
       display: block;
       font-size: 0.75rem;
     }
 
     @media screen and (max-width: 600px) {
-      .hide-on-small {
+      .hide-on-small p {
         display: none;
       }
     }
