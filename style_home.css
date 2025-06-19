@@ -294,11 +294,18 @@ footer {
 /* Responsive Styles */
 @media only screen and (max-width: 600px) {
   p {
+    font-size: 1rem !important;
+    
+  }
+  h1 {
     font-size: 1.75rem !important;
   }
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  h3 {
+    font-size: 1.25rem !important;
 
-  .container h1,
-  .container h2,
   .mission-heading {
     font-size: 1.875rem;
   }
