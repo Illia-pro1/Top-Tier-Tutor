@@ -97,6 +97,7 @@ p {
 
   .nav-links.show {
     display: flex;
+    margin-top: 20px;
   }
 
   .menu-toggle {
