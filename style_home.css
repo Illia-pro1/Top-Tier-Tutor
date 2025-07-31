@@ -134,7 +134,8 @@ p {
 }
 
 .hero-btn:hover {
-  background: #ddd;
+  background: #9500ff;
+  color: white;
 }
 
 /* Hero Image */
