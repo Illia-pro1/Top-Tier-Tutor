@@ -107,7 +107,7 @@ p {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(to right, #4a90e2, #9013fe);
+  background: url('website background image.png') center/cover no-repeat;
   color: white;
   padding: 100px 20px;
   text-align: center;
@@ -370,4 +370,5 @@ footer {
     font-size: 1.75rem;
   }
 }
+
 
