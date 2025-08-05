@@ -226,7 +226,7 @@ body{
   margin: 10px 0 20px;
 }
 
-.tuition-card button {
+.tuition-card a {
   background-color: #4a90e2;
   color: white;
   border: none;
@@ -237,7 +237,7 @@ body{
   text-decoration: none;
 }
 
-.tuition-card button:hover {
+.tuition-card a:hover {
   background-color: #9013fe;
 }
 
@@ -547,6 +547,7 @@ body{
     gap: 10px;
   }
 }
+
 
 
 
