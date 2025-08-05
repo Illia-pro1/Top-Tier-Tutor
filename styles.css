@@ -236,7 +236,7 @@ body{
   transition: background 0.3s ease;
 }
 
-.tuition-card button:hover {
+.tuition-card a:hover {
   background-color: #9013fe;
 }
 
@@ -546,4 +546,5 @@ body{
     gap: 10px;
   }
 }
+
 
